@@ -1,0 +1,34 @@
+.bodyLeft{
+    width: 75%;
+    height: 87%;
+    border-radius: 20px;
+    padding: 15px;
+    background-color: antiquewhite;
+    display: grid;
+    grid-template-columns:1fr;
+    grid-template-rows: 2fr 2fr 1fr;
+}
+
+/* Media cuery para dispositivos pequeños o cambio de estructura */
+
+.profileLeft{
+    min-height: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.descriptionLeft{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.contactLeft{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}

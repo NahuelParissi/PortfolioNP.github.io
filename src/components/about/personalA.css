@@ -1,0 +1,12 @@
+.personalA{
+    background-color: blueviolet;
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.personalA p{
+    color: blue;
+    text-align: center;
+}

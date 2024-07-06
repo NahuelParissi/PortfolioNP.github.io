@@ -1,0 +1,40 @@
+.bodyContact {
+    width: auto;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+
+
+}
+
+.contactIcon {
+    width: auto;
+    height: auto;
+    display: flex;
+    gap: 50px;
+    cursor: pointer;
+}
+
+
+
+
+.contactButton {
+    margin-top: 20px;
+}
+
+.button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.button:hover {
+    background-color: #0056b3;
+}
+
+/*Faltan terminar los detalles pero la estrucutra ya esta*/

@@ -1,0 +1,22 @@
+.bodySkillsS{
+    width: 85%;
+    height: 70dvh;
+    border-radius: 20px;
+    padding: 20px;
+    background-color: orangered;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 2fr 3fr;
+    align-items: center;
+    justify-items: center;
+}
+
+.tsSkills{
+    height: 50%;
+    background-color: aqua;
+}
+
+.otherSkills{
+    height: 50%;
+    background-color: chartreuse;
+}

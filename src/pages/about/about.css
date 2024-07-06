@@ -1,0 +1,21 @@
+/* .bodyAbout {
+    height: 100vh;
+    background-color: black;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+} */
+
+.leftS {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    position: sticky;
+}
+
+.aboutRightS {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}

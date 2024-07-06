@@ -1,0 +1,14 @@
+.bodyProfessionalA {
+    width: 75%;
+    background-color: beige;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+/* texto */
+.textProfessionalA{
+    color: cadetblue;
+}
