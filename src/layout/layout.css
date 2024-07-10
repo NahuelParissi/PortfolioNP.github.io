@@ -4,30 +4,3 @@
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
-/* layout.css */
-.layout-container {
-    display: flex;
-}
-
-.left-panel {
-    flex: 1;
-    transition: position 0.3s ease;
-}
-
-.right-panel {
-    flex: 2;
-    overflow-y: auto;
-}
-
-.sticky {
-    position: -webkit-sticky;
-    /* Safari */
-    position: sticky;
-    top: 0;
-    height: 100vh;
-    /* Para que ocupe toda la altura */
-    background-color: #f0f0f0;
-    /* Color de fondo opcional */
-    overflow: auto;
-    /* Permitir desplazamiento dentro del panel izquierdo si es necesario */
-}

@@ -1,35 +1,26 @@
-.bodyHome {
-    padding: 20px;
+.bodyMain {
+    background-color: #0c0c0cee;
+    height: auto;
+}
+
+.bodySections{
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    grid-template-rows: 1fr;
+}
+
+.stickySections{
+    background-color: blue;
     height: 100vh;
     display: flex;
-    flex-direction: column;
     align-items: center;
-    flex-wrap: nowrap;
     justify-content: center;
 }
 
-.profileHome{
-
-}
-
-.resumenHome {
-    width: 85%;
-    background-color: aquamarine;
-    padding: 20px;
-}
-
-.buttonsHomes{
-    padding: 20px 0px 0px;
+.dynamicSections{
+    height: 100vh;
     display: flex;
-    flex-direction: row;
     align-items: center;
-    justify-content: space-evenly;
+    justify-content: center;
 }
 
-.buttonsHomes button{
-    padding: 10px;
-    color: blueviolet;
-    background-color: chartreuse;
-    border: none;
-    border-radius: 10px;
-}

@@ -1,33 +1,38 @@
-import { InstagramLogoIcon, LinkedInLogoIcon, GitHubLogoIcon, DiscordLogoIcon } from '@radix-ui/react-icons'
+import { LinkedInLogoIcon, GitHubLogoIcon } from '@radix-ui/react-icons'
+import Button from './button.jsx';
 import './redesLeft.css'
 
 
 const RedesLeft = () => {
     return (
-        <section className='bodyContact'>
 
-            <section className='contactIcon' >
+        <section className='bodyContact' >
 
-                <InstagramLogoIcon width={40} height={40} />
+            <section className='contactIcon'>
 
-                <LinkedInLogoIcon width={40} height={40} />
+                <a href="https://www.linkedin.com/in/nahuelparisi/" target='_blank'>
+                    <LinkedInLogoIcon width={40} height={40} />
+                </a>
 
-                <GitHubLogoIcon width={40} height={40} />
 
-                <DiscordLogoIcon width={40} height={40} />
+                <a href="https://www.linkedin.com/in/nahuelparisi/" target='_blank'>
+                    <GitHubLogoIcon width={40} height={40} />
+                </a>
+
+                {/* Cambiar iconos y agregar efectos al hover */}
 
             </section>
 
-            <section className='contactButton'>
-                {/* Boton que despliega un formulario de contacto */}
-                <button className='button'>
-                    Contact Me
-                </button>
+            <section>
+
+                <Button name='Contact me' url='https://www.linkedin.com/in/nahuelparisi/' />
+
             </section>
+
         </section>
+
     );
 };
 
 export default RedesLeft;
 
-/*Faltan terminar los detalles pero la estrucutra ya esta*/

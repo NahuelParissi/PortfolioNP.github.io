@@ -6,27 +6,26 @@
     background-color: antiquewhite;
     display: grid;
     grid-template-columns:1fr;
-    grid-template-rows: 2fr 2fr 1fr;
+    grid-template-rows: 1.2fr 2fr 1fr;
 }
 
-/* Media cuery para dispositivos pequeños o cambio de estructura */
+/* Media query para dispositivos pequeños o cambio de estructura */
 
-.profileLeft{
-    min-height: 50%;
+.profile{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.dynamicDescription{
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
 }
 
-.descriptionLeft{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-}
-
-.contactLeft{
+.contact{
     display: flex;
     flex-direction: column;
     align-items: center;

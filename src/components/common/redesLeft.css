@@ -1,40 +1,15 @@
-.bodyContact {
-    width: auto;
-    height: 100%;
+
+.bodyContact{
+    width: 85%;
+    height: 80px;
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     align-items: center;
-    justify-content: space-around;
-
-
+    justify-content: space-between;
+    
 }
 
-.contactIcon {
-    width: auto;
-    height: auto;
-    display: flex;
-    gap: 50px;
-    cursor: pointer;
+.contactIcon a{
+    margin-right: 1vw;
+    color: black;
 }
-
-
-
-
-.contactButton {
-    margin-top: 20px;
-}
-
-.button {
-    padding: 10px 20px;
-    background-color: #007bff;
-    color: white;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-}
-
-.button:hover {
-    background-color: #0056b3;
-}
-
-/*Faltan terminar los detalles pero la estrucutra ya esta*/

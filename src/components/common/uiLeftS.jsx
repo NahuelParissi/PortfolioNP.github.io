@@ -1,24 +1,24 @@
-import './uiLeftS.css'
 import RedesLeft from './redesLeft.jsx'
 import Profile from './profile.jsx'
-import PersonalA from '../about/personalA.jsx'
+import Hobbies from '../about/hobbies.jsx'
+import './uiLeftS.css'
 
 const UiLeftS = () => {
     return (
         <section className='bodyLeft'>
-            {/* Estos datos pueden entrar como variables y cambiar dependiendo de lo que se muestre en el HomeRight */}
-            <section className='profileLeft'>
-                <Profile />
+
+            <section className='profile'>
+                <Profile name='Santiago' />
             </section>
 
-            <section className='descriptionLeft'>
+            <section className='dynamicDescription'>
 
                 {/* Componentes que dan informacion relacionada a la seccion de la derecha */}
-                <PersonalA/>
+                <Hobbies/>
 
             </section>
 
-            <section className='contactLeft'>
+            <section className='contact'>
 
                 <RedesLeft />
 

@@ -1,12 +1,12 @@
 import './profile.css'
 
-const Profile = ({ name }) => {
+const Profile = ({ name , title}) => {
     return (
-        <section className='profile'>
+        <section className='bodyProfile'>
 
-            <img src="../../../public/img/LilKlinger.jpg" alt="Foto del perfil" />
+            <img src="../../../public/img/LilKlinger.jpg" alt="Foto del perfil" className='imgProfile' />
 
-            <h1 className='title'>{name} <br/> Desarrollador web</h1>
+            <h1 className='titleProfile'>{name} <br/> {title}</h1>
 
         </section>
     );
