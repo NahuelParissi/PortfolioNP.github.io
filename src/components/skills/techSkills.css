@@ -1,0 +1,13 @@
+.bodyTechSkills{
+    background-color: brown;
+    height: 80%;
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.techSkills{
+    
+}

@@ -6,17 +6,17 @@
     background-color: orangered;
     display: grid;
     grid-template-columns: 1fr;
-    grid-template-rows: 2fr 3fr;
+    grid-template-rows: 1.5fr 1fr;
+}
+
+.tsSkillsS{
+    display: flex;
     align-items: center;
-    justify-items: center;
+    justify-content: space-around;
 }
 
-.tsSkills{
-    height: 50%;
-    background-color: aqua;
-}
-
-.otherSkills{
-    height: 50%;
-    background-color: chartreuse;
+.oSkillsS{
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }

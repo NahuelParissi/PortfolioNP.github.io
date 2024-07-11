@@ -1,0 +1,15 @@
+.bodyOtherSkills{
+    background-color: bisque;
+    height: 80%;
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.otherSkills{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}

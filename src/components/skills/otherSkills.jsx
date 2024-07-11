@@ -1,11 +1,11 @@
-import './techSkills.css'
+import './otherSkills.css'
 
-const TechSkills = () => {
-    return(
-        <aside className='bodyTechSkills'>
+const OtherSkills = () => {
+    return (
+        <section className='bodyOtherSkills'>
             <p>Titulo</p>
             
-            <ul className="techSkills">
+            <ul className="otherSkills">
                 <li>Skill </li>
                 <li>Skill </li>
                 <li>Skill </li>
@@ -13,8 +13,8 @@ const TechSkills = () => {
                 <li>Skill </li>
                 <li>Skill </li>
             </ul>
-        </aside>
+        </section>
     );
-} ;
+};
 
-export default TechSkills;
+export default OtherSkills;

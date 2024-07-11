@@ -1,7 +1,8 @@
+import UiLeftS from '../../components/common/uiLeftS.jsx';
 import HomeS from '../../sections/home/homeS.jsx';
 import AboutRightS from '../../sections/about/aboutRightS.jsx';
 import SkillsS from '../../sections/skills/skillsS.jsx';
-import UiLeftS from '../../components/common/uiLeftS.jsx';
+// import ProjectS from '../../sections/project/projectS.jsx';
 import './home.css'
 
 
@@ -13,23 +14,21 @@ const Home = () => {
 
             <section className='bodySections'>
 
-                <div className='uiLeftContainer'>
+                <aside className='uiLeftContainer'>
                     <UiLeftS />
-                </div>
+                </aside>
 
-                <div className='aboutRight'>
+                <section className='aboutRight'>
                     <AboutRightS/>
-                </div>
+                </section>
 
-                <div className='skills'>
-                    <AboutRightS />
-                </div>
+                <section className='skills'>
+                    <SkillsS />
+                </section>
 
-                <div className='project'>
-                    <AboutRightS />
-                </div>
-
-
+                 {/* <section className='project'>
+                    <ProjectS />
+                </section>  */}
 
             </section>
 
