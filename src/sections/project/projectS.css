@@ -1,0 +1,22 @@
+.bodyProject {
+    width: 85%;
+    height: 70dvh;
+    border-radius: 20px;
+    padding: 20px;
+    background-color: orangered;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 2fr 1fr;
+}
+
+.projectList {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.projectInfo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

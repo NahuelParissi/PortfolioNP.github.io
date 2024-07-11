@@ -1,21 +1,21 @@
-import Project from '../../components/project/project.jsx';
-import InfoProject from '../../components/project/infoProject.jsx';
+import ProjectList from '../../components/project/projectList.jsx';
+import ProjectInfo from '../../components/project/projectInfo.jsx';
 import './projectS.css'
 
 
 const ProjectS = () => {
     return (
-        <section className='bodyProject'>
-            pene
-            <article className='project'>
-                {/* <Project/> */}
-            </article>
-
-            <article className='infoProject'>
-               {/* <InfoProject/> */}
-            </article>
+        <article className='bodyProject'>
             
-        </section>
+            <section className='projectList'>
+                <ProjectList/>
+            </section>
+
+            <section className='projectInfo'>
+               <ProjectInfo/>
+            </section>
+            
+        </article>
     );
 };
 
