@@ -13,19 +13,23 @@ const Home = () => {
 
             <section className='bodySections'>
 
-                <aside className='stickySections'>
-                    <UiLeftS/>
-                </aside>
+                <div className='uiLeftContainer'>
+                    <UiLeftS />
+                </div>
 
-                <article className='dynamicSections'>
+                <div className='aboutRight'>
+                    <AboutRightS/>
+                </div>
 
+                <div className='skills'>
                     <AboutRightS />
+                </div>
 
-                    {/* <SkillsS /> */}
+                <div className='project'>
+                    <AboutRightS />
+                </div>
 
-                    {/* <ProjectS/> */}
 
-                </article>
 
             </section>
 

@@ -1,4 +1,4 @@
-.bodyMain {
+/* .bodyMain {
     background-color: #0c0c0cee;
     height: auto;
 }
@@ -8,19 +8,56 @@
     grid-template-columns: 1fr 2fr;
     grid-template-rows: 1fr;
 }
+ */
 
-.stickySections{
-    background-color: blue;
+.bodyMain {
+    background-color: #0c0c0cee;
+    height: auto;
+}
+
+.bodySections {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    grid-template-rows: 1fr;
+    grid-template-areas:
+        "uiLeftContainer aboutRight"
+        "uiLeftContainer skills"
+        "uiLeftContainer project";
+}
+
+.uiLeftContainer {
     height: 100vh;
+    grid-area: uiLeftContainer;
     display: flex;
     align-items: center;
     justify-content: center;
+    position: sticky;
+    top: 0;
 }
 
-.dynamicSections{
+.aboutRight {
     height: 100vh;
+    grid-area: aboutRight;
     display: flex;
     align-items: center;
     justify-content: center;
+    /* Asigna el área a AboutRightS */
 }
 
+.skills {
+    height: 100vh;
+    grid-area: skills;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* Asigna el área a SkillsS */
+}
+
+.project {
+    height: 100vh;
+    grid-area: project;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* Asigna el área a ProjectS */
+}
