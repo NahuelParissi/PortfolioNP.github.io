@@ -11,9 +11,10 @@
 
 .projectList {
     display: flex;
-    align-items: center;
     justify-content: center;
+    align-items: center;
 }
+/* Se podria sacar porque es alineado cn el css del componente */
 
 .projectInfo {
     display: flex;

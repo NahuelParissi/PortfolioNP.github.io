@@ -1,6 +1,11 @@
-.bodyProjectList{
-    background-color: brown;
+.bodyProjectList {
     display: flex;
     align-items: center;
+    justify-content: center;
 }
 
+.bodyProjectList img {
+    max-width: 80%;
+    aspect-ratio: 16/9;
+
+}

@@ -8,7 +8,7 @@ const HomeS = () => {
 
             <section className='profileHomeS'>
 
-                <Profile name={'Ivan el kukas'} />
+                <Profile name={'Ivan el kukas'} title={'Soldadito de peron'}/>
 
             </section>
 

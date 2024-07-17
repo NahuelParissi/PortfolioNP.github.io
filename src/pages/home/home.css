@@ -24,7 +24,7 @@
 }
 
 .aboutRight {
-    height: 100vh;
+    height: 110vh;
     grid-area: aboutRight;
     display: flex;
     align-items: center;
@@ -33,7 +33,7 @@
 }
 
 .skills {
-    height: 100vh;
+    height: 110vh;
     grid-area: skills;
     display: flex;
     align-items: center;
@@ -42,8 +42,15 @@
 }
 
 .project {
-    height: 100vh;
+    height: 110vh;
     grid-area: project;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+} 
+
+.contactS{
+    height: 100vh;
     display: flex;
     align-items: center;
     justify-content: center;

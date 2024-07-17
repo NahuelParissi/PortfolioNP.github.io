@@ -6,10 +6,10 @@
     background-color: antiquewhite;
     display: grid;
     grid-template-columns:1fr;
-    grid-template-rows: 1.2fr 2fr 1fr;
+    grid-template-rows: 1.2fr 2fr 1fr; 
 }
 
-/* Media query para dispositivos pequeños o cambio de estructura */
+/* Media query para dispositivos pequeños o cambio de estructura  sobre todo en el grid-template-row*/
 
 .profile{
     display: flex;

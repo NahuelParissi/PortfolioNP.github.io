@@ -3,6 +3,7 @@ import HomeS from '../../sections/home/homeS.jsx';
 import AboutRightS from '../../sections/about/aboutRightS.jsx';
 import SkillsS from '../../sections/skills/skillsS.jsx';
 import ProjectS from '../../sections/project/projectS.jsx';
+import ContactS from '../../sections/contact/contactS.jsx';
 import './home.css'
 
 
@@ -19,25 +20,25 @@ const Home = () => {
                 </aside>
 
                 <section className='aboutRight'>
-                    <AboutRightS/>
+                    <AboutRightS />
                 </section>
 
                 <section className='skills'>
                     <SkillsS />
                 </section>
 
-                 <section className='project'>
+                <section className='project'>
                     <ProjectS />
-                </section> 
+                </section>
 
             </section>
 
-            <footer>
-                Terminado baby
-            </footer>
+            <section className="contactS">
+                <ContactS />
+            </section>
+
         </section>
     );
 };
 
 export default Home;
-
