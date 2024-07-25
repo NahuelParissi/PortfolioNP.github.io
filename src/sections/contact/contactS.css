@@ -1,54 +1,48 @@
-/* ContactFormS.css */
 .bodyContactS {
-    width: 100%;
+    background-color: aqua;
+    width: 85%;
+    height: 70dvh;
+    border-radius: 20px;
+    padding: 20px;
     display: flex;
-    justify-content: center;
+    flex-direction: column;
     align-items: center;
+    justify-content: center;
+    gap: 20px;
 }
 
-.contactForm {
-    width: 80%;
-    /* Ajusta según tus necesidades */
-    max-width: 600px;
-    background-color: #f9f9f9;
-    padding: 2rem;
-    border-radius: 8px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+.formHeader {
+    color: aliceblue;
+    font-size: x-large;
 }
 
-.contactForm h2 {
-    margin-bottom: 1rem;
-    font-size: 1.5rem;
-    text-align: center;
-}
-
-.contactForm label {
-    display: block;
-    margin-bottom: 0.5rem;
-    font-weight: bold;
-}
-
-.contactForm input,
-.contactForm textarea {
-    width: 100%;
-    padding: 0.5rem;
-    margin-bottom: 1rem;
+.formName,
+.formEmail {
+    width: 40%;
+    padding: 10px;
     border: 1px solid #ccc;
-    border-radius: 4px;
+    border-radius: 3px;
+    margin-bottom: 15px;
+    font-size: 1em;
 }
 
-.contactForm button {
-    display: block;
-    width: 100%;
-    padding: 0.75rem;
-    background-color: #007bff;
-    color: white;
+.formTextArea {
+    width: 40%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    margin-bottom: 15px;
+    font-size: 1em;
+    resize: vertical;
+    min-height: 40%;
+}
+
+.formButton{
+    background-color: #ccc; /* Color de fondo del botón */
+    color: black; /* Color del texto del botón */
+    padding: 10px 20px;
     border: none;
     border-radius: 4px;
     cursor: pointer;
-    font-size: 1rem;
 }
 
-.contactForm button:hover {
-    background-color: #0056b3;
-}

@@ -9,7 +9,7 @@
         "uiLeft about about"
         "uiLeft skills skills"
         "uiLeft project project"
-        "form form form";
+        "uiLeft form form";
 }
 
 .home{
@@ -64,74 +64,3 @@
     align-items: center;
     justify-content: center;
 }
-
-
-/*  
-Opcion 2
-
-.bodyMain {
-    background-color: #0c0c0cee;
-    height: auto;
-}
-
-.bodySections {
-    display: grid;
-    grid-template-columns: auto 70%;
-    grid-template-rows: 1fr;
-    grid-template-areas:
-        "uiLeftContainer aboutS"
-        "uiLeftContainer skillsS"
-        "uiLeftContainer projectS"
-        "uiLeftContainer contactS";
-}
-
-.uiLeftContainer {
-    height: 100vh;
-    grid-area: uiLeftContainer;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    position: sticky;
-    top: 0;
-    transition: width 0.5s ease-in-out;
-}
-
-.uiLeftSContent {
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-}
-
-.aboutS {
-    height: 100vh;
-    grid-area: aboutS;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-.skillsS {
-    height: 100vh;
-    grid-area: skillsS;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-.projectS {
-    height: 100vh;
-    grid-area: projectS;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-.contactS {
-    height: 100vh;
-    grid-area: contactS;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-} */

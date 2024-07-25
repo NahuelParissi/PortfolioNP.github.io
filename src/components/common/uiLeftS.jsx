@@ -1,10 +1,9 @@
 import RedesLeft from './redesLeft.jsx';
 import Profile from './profile.jsx';
 import Hobbies from '../about/hobbies.jsx';
-import ContactS from '../../sections/contact/contactS.jsx';
 import './uiLeftS.css'
 
-const UiLeftS = ({ showContactForm }) => {
+const UiLeftS = ({ }) => {
     return (
         <aside className='bodyUiLeft'>
 
@@ -26,10 +25,6 @@ const UiLeftS = ({ showContactForm }) => {
                     <RedesLeft />
 
                 </section>
-            </section>
-            {/* Experimental */}
-            <section className="bodyRight">
-                {showContactForm && (<ContactS />)}
             </section>
 
         </aside>

@@ -1,34 +1,27 @@
-import React from 'react';
-import './contactS.css';
+import { useForm } from 'react-hook-form';
+import './contactS.css'
 
-const ContactS = () => {
+export default function ContactS() {
+
+  const { register, handleSubmit, formState: { errors } } = useForm();
+  const onSubmit = data => console.log(data);
+  console.log(errors);
+  
   return (
-    <div className='bodyContactS'>
 
-      <form className='contactForm'>
+    <form onSubmit={handleSubmit(onSubmit)} className='bodyContactS'>
 
-        <h2>Contact Us</h2>
+      <h3 className='formHeader'>Talk with me BRO 🐱‍👤</h3>
 
-        <label>
-          Name:
-          <input type='text' name='name' />
-        </label>
+      <input className='formName' type="text" placeholder="Nombre" {...register("Name", {})} />
 
-        <label>
-          Email:
-          <input type='email' name='email' />
-        </label>
+      <input className='formEmail' type="email" placeholder="Email" {...register("Email", {pattern: /@/i})} />
 
-        <label>
-          Message:
-          <textarea name='message' />
-        </label>
+      
+      <textarea className='formTextArea' placeholder="Tu mensaje" {...register} />
 
-        <button type='submit'>Send</button>
+      <input className='formButton' type="submit" />
 
-      </form>
-    </div>
+    </form>
   );
-};
-
-export default ContactS;
+}

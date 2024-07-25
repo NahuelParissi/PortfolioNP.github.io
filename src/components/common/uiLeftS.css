@@ -1,11 +1,12 @@
 .bodyUiLeft{
+    height: 90%;
+    width: 75%;
     display: flex;
     align-items: center;
     justify-content: center;
 }
 .bodyLeft{
-    width: 75%;
-    height: 87%;
+    height: 100%;
     border-radius: 20px;
     padding: 15px;
     background-color: antiquewhite;
