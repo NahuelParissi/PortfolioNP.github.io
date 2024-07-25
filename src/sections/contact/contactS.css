@@ -8,7 +8,7 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    gap: 20px;
+
 }
 
 .formHeader {
@@ -17,32 +17,31 @@
 }
 
 .formName,
-.formEmail {
+.formEmail,
+.formTextArea {
     width: 40%;
-    padding: 10px;
-    border: 1px solid #ccc;
+    display: flex;
+    flex-direction: column;
+}
+
+.formElement {
     border-radius: 3px;
-    margin-bottom: 15px;
     font-size: 1em;
 }
 
-.formTextArea {
-    width: 40%;
-    padding: 10px;
+.formTextArea textarea {
     border: 1px solid #ccc;
     border-radius: 3px;
     margin-bottom: 15px;
     font-size: 1em;
     resize: vertical;
-    min-height: 40%;
 }
 
-.formButton{
-    background-color: #ccc; /* Color de fondo del botón */
-    color: black; /* Color del texto del botón */
+.formButton {
+    background-color: #ccc;
+    color: black;
     padding: 10px 20px;
     border: none;
     border-radius: 4px;
     cursor: pointer;
 }
-
