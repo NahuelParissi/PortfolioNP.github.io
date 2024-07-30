@@ -22,20 +22,26 @@
     width: 40%;
     display: flex;
     flex-direction: column;
+    margin-bottom: 10px;
 }
 
 .formElement {
-    border-radius: 3px;
+    padding-left: 10px;
+    border-radius: 10px;
     font-size: 1em;
+    padding: 2% 5%;
 }
 
 .formTextArea textarea {
     border: 1px solid #ccc;
-    border-radius: 3px;
-    margin-bottom: 15px;
+    border-radius: 10px;
     font-size: 1em;
     resize: vertical;
-}
+    min-height: 20vh;
+    max-height: 35vh;
+    overflow-y: auto;
+    padding: 5%;
+  }
 
 .formButton {
     background-color: #ccc;
