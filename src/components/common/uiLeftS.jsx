@@ -1,34 +1,28 @@
 import RedesLeft from './redesLeft.jsx';
 import Profile from './profile.jsx';
-import Hobbies from '../about/hobbies.jsx';
-import './uiLeftS.css'
+import Dinamic from './dinamic.jsx'
+import './uiLeftS.css';
 
-const UiLeftS = ({ }) => {
-    return (
-        <aside className='bodyUiLeft'>
+const UiLeftS = ({ activeSection }) => {
+  return (
+    <aside className='bodyUiLeft'>
 
-            <section className='bodyLeft'>
+      <section className='bodyLeft'>
 
-                <section className='profile'>
-                    <Profile name='Santiago' />
-                </section>
+        <section className='profile'>
+          <Profile name='Santiago' />
+        </section>
 
-                <section className='dynamicDescription'>
+        <Dinamic activeSection={activeSection} />
 
-                    {/* Componentes que dan informacion relacionada a la seccion de la derecha */}
-                    <Hobbies />
+        <section className='contact'>
+          <RedesLeft />
+        </section>
 
-                </section>
+      </section>
 
-                <section className='contact'>
-
-                    <RedesLeft />
-
-                </section>
-            </section>
-
-        </aside>
-    );
+    </aside>
+  );
 };
 
 export default UiLeftS;

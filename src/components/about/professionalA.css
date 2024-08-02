@@ -1,4 +1,4 @@
-.bodyProfessionalA {
+ .bodyProfessionalA {
     width: 75%;
     background-color: beige;
     display: flex;
@@ -8,7 +8,7 @@
     text-align: center;
 }
 
-/* texto */
-.textProfessionalA{
-    color: cadetblue;
+.textProfessionalA {
+    display: block;
+    width: 70ch; 
 }
