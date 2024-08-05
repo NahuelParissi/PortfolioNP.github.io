@@ -13,7 +13,11 @@ const UiLeftS = ({ activeSection }) => {
           <Profile name='Santiago' />
         </section>
 
-        <Dinamic activeSection={activeSection} />
+        <section className='dynamicDescription'>
+
+          <Dinamic activeSection={activeSection} />
+
+        </section>
 
         <section className='contact'>
           <RedesLeft />

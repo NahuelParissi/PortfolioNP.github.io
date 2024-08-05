@@ -1,9 +1,9 @@
 import Button from '../common/button.jsx'
-import './resumen.css'
+import './presentation.css'
 
-const Resumen = () => {
+const Presentation = () => {
     return (
-        <section className='bodyResumen'>
+        <section className='bodyPresentation'>
             <p>
                 Los muchachos peronistas,
                 todos unidos triunfaremos,
@@ -22,7 +22,7 @@ const Resumen = () => {
                 sos el primer trabajador
             </p>
 
-            <section className='buttonsHomeS'>
+            <section className='buttonsPresentationS'>
 
                 <Button name='Contacto' />
 
@@ -34,4 +34,4 @@ const Resumen = () => {
     );
 };
 
-export default Resumen;
+export default Presentation;

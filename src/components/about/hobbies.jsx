@@ -2,8 +2,9 @@ import './hobbies.css'
 
 const Hobbies = () =>{
     return(
-        <section className="hobbies">
-            <p>Hobbies<br/>Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro perspiciatis voluptatum aliquam iste quas, dignissimos sed incidunt consectetur cumque placeat, numquam aliquid vero itaque debitis sit animi eligendi nobis quae</p>
+        <section className="bodyHobbies">
+            <h3 className="hobbiesTitle">Hobbies</h3>
+            <p className="hobbiesText">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla voluptatum quisquam quod et. Quasi, totam minima beatae quod, commodi vel iusto sunt impedit similique itaque, facilis voluptas suscipit architecto eligendi.</p>
         </section>
     );
 };

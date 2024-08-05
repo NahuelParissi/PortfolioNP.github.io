@@ -1,5 +1,5 @@
 import Profile from '../../components/common/profile.jsx'
-import Resumen from '../../components/home/resumen.jsx';
+import Presentation from '../../components/home/presentation.jsx';
 import './homeS.css'
 
 const HomeS = () => {
@@ -12,9 +12,9 @@ const HomeS = () => {
 
             </section>
 
-            <article className="resumenHomeS">
+            <article className="presentationHomeS">
 
-                <Resumen />
+                <Presentation />
 
             </article>
 

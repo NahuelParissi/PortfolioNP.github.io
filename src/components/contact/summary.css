@@ -1,0 +1,12 @@
+.bodySummary{
+    background-color: aquamarine;
+
+}
+.summaryTitle{
+    color: black;
+    text-align: center;
+}
+
+.summaryText{
+    padding-top: 15px;
+}

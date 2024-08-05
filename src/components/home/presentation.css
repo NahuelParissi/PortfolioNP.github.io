@@ -1,17 +1,14 @@
-.bodyResumen {
+.bodyPresentation {
     width: 70%;
     color: aliceblue;
     background: rgba(255, 255, 255, 0.2);
-    /* Color de fondo semitransparente */
     backdrop-filter: blur(10px);
-    /* Efecto de difuminado */
     padding: 20px;
     border-radius: 10px;
-    /* Opcional: para bordes redondeados */
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
-.buttonsHomeS {
+.buttonsPresentationS {
     margin-top: 20px;
     display: flex;
     justify-content: space-around;

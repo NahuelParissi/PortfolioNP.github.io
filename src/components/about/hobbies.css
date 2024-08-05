@@ -1,9 +1,12 @@
-.hobbies{
-    display: flex;
-    flex-direction: column;
+.bodyHobbies{
+    background-color: chartreuse;
 }
 
-.hobbies p{
-    color: rgb(0, 0, 0);
+.hobbiesTitle{
+    color: black;
     text-align: center;
+}
+
+.hobbiesText{
+    padding-top: 15px;
 }

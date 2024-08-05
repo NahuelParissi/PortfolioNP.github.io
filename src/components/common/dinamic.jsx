@@ -1,6 +1,6 @@
 import React from 'react';
 import Hobbies from '../about/hobbies.jsx';
-import Resume from '../contact/resume.jsx';
+import Summary from '../contact/summary.jsx';
 import SkillsToLearn from '../skills/skillsToLearn.jsx';
 import ProjectTech from '../project/projectTech.jsx';
 
@@ -8,19 +8,19 @@ const Dinamic = ({ activeSection }) => {
   let content;
   switch (activeSection) {
     case 'about':
-      content = <Hobbies/>;
+      content = <Hobbies />;
       break;
     case 'skills':
-      content = <SkillsToLearn/>;
+      content = <SkillsToLearn />;
       break;
     case 'project':
-      content = <ProjectTech/>;
+      content = <ProjectTech />;
       break;
     case 'form':
-      content = <Resume/>;
+      content = <Summary />;
       break;
     default:
-      content = 'Home Content';
+      content = <Hobbies />;
   }
 
   return (
