@@ -1,5 +1,4 @@
 // Libreria react-Scroll sin uso
-
 import './home.css';
 import UiLeftS from '../../components/common/uiLeftS.jsx';
 import HomeS from '../../sections/home/homeS.jsx';
