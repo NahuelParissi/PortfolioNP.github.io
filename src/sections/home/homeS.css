@@ -1,8 +1,23 @@
 .bodyHomeS {
     height: 100vh;
     display: grid;
-    grid-template-columns: 1fr;
-    grid-template-rows: 1.2fr 1fr;
+    grid-template-columns: 1fr 2fr 1fr;
+    grid-template-rows: 1fr;
+    color:aliceblue
+}
+
+.leftHomeS {
+    border: solid white 2px;
+}
+
+.centerHomeS {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.rightHomeS {
+    border: solid white 2px;
 }
 
 .profileHomeS { 

@@ -6,17 +6,29 @@ const HomeS = () => {
     return (
         <section className="bodyHomeS">
 
-            <section className='profileHomeS'>
+            <section className="leftHomeS">
+                Animacion de cascada de tecnologias
+            </section>
 
-                <Profile name={'Ivan el kukas'} title={'Soldadito de peron'}/>
+            <section className="centerHomeS">
+
+                <article className='profileHomeS'>
+
+                    <Profile name={'Ivan el kukas'} title={'Soldadito de peron'} />
+
+                </article>
+
+                <article className="presentationHomeS">
+
+                    <Presentation />
+
+                </article>
 
             </section>
 
-            <article className="presentationHomeS">
-
-                <Presentation />
-
-            </article>
+            <section className="rightHomeS">
+                Animacion de cascada de Apps
+            </section>
 
         </section>
     );
