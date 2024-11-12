@@ -1,4 +1,4 @@
-import Home from '../pages/home/home.jsx'
+import MainPage from '../pages/home/MainPage.jsx'
 import './layout.css'
 
 // Cambiar nombres de las pages
@@ -8,7 +8,7 @@ const Layout = () =>{
 
     <main>
 
-      <Home/>
+      <MainPage/>
 
     </main>
 

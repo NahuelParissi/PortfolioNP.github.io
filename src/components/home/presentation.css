@@ -1,15 +1,42 @@
 .bodyPresentation {
-    width: 70%;
     color: aliceblue;
-    background: rgba(255, 255, 255, 0.2);
-    backdrop-filter: blur(10px);
-    padding: 20px;
-    border-radius: 10px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    width: 90ch;
+    gap: 1rem;
+}
+
+.infoPresentation {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.namePresentation {
+    color: #FBFBFB;
+    font-size: 5rem;
+    font-family: 'Jersey 20';
+}
+
+.titlePresentation {
+    color: #FBFBFB;
+    font-size: 3rem;
+    font-family: 'Jersey 20';
+}
+
+.textPresentation{
+    color: #F56E0F;
+    font-size: 1rem;
 }
 
 .buttonsPresentationS {
-    margin-top: 20px;
     display: flex;
-    justify-content: space-around;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.leftButtons{
+    width: 200px;
+    display: flex;
+    justify-content: space-between;
 }

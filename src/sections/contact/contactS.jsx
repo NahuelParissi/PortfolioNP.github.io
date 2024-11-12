@@ -25,7 +25,7 @@ const ContactS = () => {
 
   return (
 
-    <form className='bodyContactS' ref={form} onSubmit={handleSubmit(sendEmail)}>
+    <form id='contacto' className='bodyContactS' ref={form} onSubmit={handleSubmit(sendEmail)}>
 
       <h3 className='formHeader'>Talk with me BRO 🐱‍👤</h3>
 

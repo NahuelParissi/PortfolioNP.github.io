@@ -1,5 +1,5 @@
 // Libreria react-Scroll sin uso
-import './home.css';
+import './MainPage.css';
 import UiLeftS from '../../components/common/uiLeftS.jsx';
 import HomeS from '../../sections/home/homeS.jsx';
 import AboutS from '../../sections/about/aboutS.jsx';
@@ -8,8 +8,9 @@ import ProjectS from '../../sections/project/projectS.jsx';
 import ContactS from '../../sections/contact/contactS.jsx';
 import React, { useState, useEffect, useRef } from 'react';
 
+// Cambiar nombre Home (PAGE) ya que se puede confundir con HOMES(Seccion)
 
-const Home = () => {
+const MainPage = () => {
   const [activeSection, setActiveSection] = useState('home');
   const sectionsRef = useRef([]);
 
@@ -59,4 +60,4 @@ const Home = () => {
   );
 }
 
-export default Home;
+export default MainPage;

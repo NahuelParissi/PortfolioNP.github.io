@@ -1,34 +1,33 @@
-import Profile from '../../components/common/profile.jsx'
 import Presentation from '../../components/home/presentation.jsx';
+import LanguageList from '../../components/common/techList.jsx';
 import './homeS.css'
 
+
 const HomeS = () => {
+
+    const imgprofile = "../../../public/img/Fto de perfil 2.jpeg"
+
     return (
         <section className="bodyHomeS">
 
-            <section className="leftHomeS">
-                Animacion de cascada de tecnologias
-            </section>
+            <section className='upperHomeS'>
 
-            <section className="centerHomeS">
-
-                <article className='profileHomeS'>
-
-                    <Profile name={'Ivan el kukas'} title={'Soldadito de peron'} />
-
-                </article>
-
-                <article className="presentationHomeS">
-
+                <section className='homePresentation'>
                     <Presentation />
+                </section>
 
-                </article>
+                <section className="homeProfile">
+                    <img src={imgprofile} alt="Foto del perfil" className='imgProfileHome' />
+                </section>
 
             </section>
 
-            <section className="rightHomeS">
-                Animacion de cascada de Apps
+            <section className='lowerHomeS'>
+
+                <LanguageList />
+
             </section>
+
 
         </section>
     );

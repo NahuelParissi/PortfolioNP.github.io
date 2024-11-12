@@ -2,7 +2,7 @@ import './profile.css'
 
 const Profile = ({ name , title}) => {
 
-    const imgprofile = "../../../public/img/Chiqui-Tapia-joven.avif"
+    const imgprofile = "../../../public/img/Fto de perfil.jpeg"
 
     return (
         <section className='bodyProfile'>

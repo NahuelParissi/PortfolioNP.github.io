@@ -1,8 +1,8 @@
 .bodyButton {
     /* Estilos para el botón */
     padding: 10px 20px;
-    background-color: #007bff;
-    color: white;
+    background-color: #F56E0F;
+    color: #FBFBFB;
     border: none;
     border-radius: 5px;
     cursor: pointer;
@@ -10,11 +10,7 @@
   }
   
   .bodyButton a {
-    color: white;
+    color: #FBFBFB;
     text-decoration: none;
-  }
-  
-  .bodyButton:hover {
-    background-color: #0056b3;
   }
   
